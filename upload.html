@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>upLoad</title>
+	<style>
+
+		#wrapper{
+			margin-top: 50px;	
+		}
+		.img-content{
+			float: left;
+			width: 93px;
+			height: 173px;
+			margin-right: 20px;
+			position: relative;
+		}
+
+		.list-img{
+			width: 100%;
+			height: 100%;
+		}
+
+		.img-del{
+			width: 20px;
+			height: 20px;
+			background: url("assets/images/del.png") no-repeat 0 0;
+			background-size: contain;
+			position: absolute;
+			right: -10px;
+			top: -10px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<button id="SubUpload" class="ManagerButton">确定上传</button>
+	
+	<input type="file" multiple="true" id="uploadImg"/>
+	
+	<div id="wrapper"></div>
+	
+	<script src="http://static.udache.com/gulfstream/webapp/js/didi.min.js"></script>
+	<script src="upload.js"></script>
+</body>
+</html>
